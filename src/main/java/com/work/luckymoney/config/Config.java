@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 public class Config {
     private BigDecimal minMoney;
     private BigDecimal maxMoney;
-    private String description;
+
 
     public BigDecimal getMinMoney() {
         return minMoney;
@@ -29,11 +29,5 @@ public class Config {
         this.maxMoney = maxMoney;
     }
 
-    public String getDescription() {
-        return description;
-    }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
 }

@@ -12,8 +12,7 @@ public class HelloController {
     private Config config;
     @GetMapping("/hello/say")
     public String say() {
-        return "江神无敌"+config.getDescription();
-    }
+        return "江神无敌" ;}
 
     @GetMapping("/abc")
     public int say2() {
